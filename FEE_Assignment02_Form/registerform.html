@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <style>
+        table,  td {
+            
+            border: 1px solid orange;
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+    <h3>FORM ĐĂNG KÍ HỌC VIÊN TẠI FPT SOWFTWARE ACADEMY</h3>
+    <form action="">
+        <table class="table-form">
+            <tr>
+                <td> Họ </td>
+                <td>
+                    <input type="text" name="lname" id="lname" placeholder="Nhập họ của bạn">
+                </td>
+            </tr>
+
+            <tr>
+                <td> Tên </td>
+                <td>
+                    <input type="text" name="fname" id="fname" placeholder="Nhập tên của bạn">
+                </td>
+            </tr>
+
+            <tr>
+                <td> Mật Khẩu </td>
+                <td>
+                    <input type="password" name="password" id="password" placeholder="Nhập mật khẩu của bạn">
+                </td>
+            </tr>
+
+            <tr>
+                <td> Tuổi (0-100)</td>
+                <td>
+                    <input type="range" name="age" id="age" min="0" max="100">
+                </td>
+            </tr>
+
+            <tr>
+                <td> Email </td>
+                <td>
+                    <input type="email" name="email" id="email" placeholder="Nhập email của bạn">
+                </td>
+            </tr>
+
+            <tr>
+                <td> Giới tính </td>
+                <td>
+                    <input type="radio" name="gender" id="male" value="male" >Nam
+                    <input type="radio" name="gender" id="female" value="female" >Nữ
+                    <input type="radio" name="gender" id="other" value="other" >Khác
+                </td>
+            </tr>
+
+            <tr>
+                <td> Trình độ </td>
+                <td>
+                    <select name="level" id="level">
+                        <option value="1">Cao đẳng</option>
+                        <option value="2">Đại học</option>
+                        <option value="0">Khác</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td> Khoá học </td>
+                <td>
+                    <input type="checkbox" name="course1" id="course1" value="java"> Java
+                    <input type="checkbox" name="course2" id="course2" value="net"> Net
+                    <input type="checkbox" name="course3" id="course3" value="fe"> Front-end
+                    <input type="checkbox" name="course4" id="course4" value="angular"> Angular
+                    <input type="checkbox" name="course5" id="course5" value="react"> React
+                    <input type="checkbox" name="course6" id="course6" value="nodejs"> Node js
+                </td>
+            </tr>
+
+            <tr>
+                <td> Quên quán </td>
+                <td>
+                    <textarea name="add" id="add" cols="30" rows="10" placeholder="Nhập địa chỉ nhà, gồm số nhà, đường, phố, phường, xã"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>  </td>
+                <td>
+                    <button type="submit">Đăng kí</button>
+                    <button type="reset">Điền lại</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

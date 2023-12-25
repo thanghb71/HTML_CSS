@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+    <style>
+        body {
+            border: 1px solid blue;
+            margin: 5px;
+            width: 700px;
+            height: 500px;
+        }
+        .container {
+            margin: 5px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Order Now</h1>
+        <p>Find us at some address at some place or call us at 05050515-12330</p>
+        <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+        <form>
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td>
+                        <input type="text" name="name" id="name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>How many people</td>
+                    <td>
+                        <input type="text" name="quantity" id="quantity">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Include</td>
+                    <td>
+                        <input type="checkbox" name="include1" id="include1"> Baby
+                        <input type="checkbox" name="include2" id="include2"> Children
+                        <input type="checkbox" name="include3" id="include3"> Old
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Request car parking</td>
+                    <td>
+                        <input type="radio" name="choose" id="yes" value="yes"> Yes
+                        <input type="radio" name="choose" id="no" value="no"> No
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Date And Time</td>
+                    <td>
+                        <input type="datetime" name="datetime" id="datetime">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Special requirements</td>
+                    <td>
+                        <textarea name="specialreq" id="specialreq" cols="30" rows="10"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>
+                        <button type="submit">Send Other</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
